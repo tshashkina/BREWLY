@@ -1,136 +1,3 @@
-/* Reset some Bootstrap styles
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}*/
-
-/* Use these styles to match the design */
-/*body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #333;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: white;
-    font-size: 40px;
-    line-height: 1.6;
-    background-color: #092A3A; /* Updated background color 
-}*/
-
-/*Additional style to ensure text stands out against the darker background 
-header, .bg-light, footer, .btn-success {
-    color: #ffffff;
-}
-
-header p, .card-text {
-    color: #ffffffb3; /* Light white for less emphasis 
-}
-
-
-/*header {
-    background-color: #092A3A; Adjust this color to match your exact header background color 
-    color: #fff;
-    padding: 40px 0;
-}*/
-
-/*header img {
-    max-width: 150px; /*Adjust as per your logo size 
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-h2 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #333; /* Or another color based on your design 
-    margin-bottom: 20px;
-}
-
-.card {
-    background-color: #f9f9f9;
-    border: none;
-}
-
-.card-body {
-    padding: 30px;
-}
-
-.card-title {
-    font-size: 20px;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    font-size: 14px;
-    font-weight: 400;
-    color: #666;
-}
-
-.btn-success {
-    background-color: #008248;  Starbucks green for reference, adjust to match your design 
-    border-color: #008248;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.bg-light {
-    background-color: #f2f2f2; /* Adjust to the background color of your testimonials section 
-    padding: 50px 0;
-}
-
-footer {
-    background-color: #0a0a0a; /* Adjust to match your footer background color 
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
-/* Ensure .img-fluid is not constrained by Bootstrap's max-width 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Responsive adjustments might be needed here 
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    .card-body {
-        padding: 20px;
-    }
-
-    .btn-success {
-        padding: 10px 20px;
-    }
-}*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -153,6 +20,7 @@ header img {
     max-width: 150px; /* Adjust as necessary for logo size */
     margin: 0 auto; /* Auto margin for horizontal centering */
     display: block; /* Display block to allow margins to take effect */
+    margin-bottom: 70px;
    
 }
 
@@ -164,12 +32,15 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: 300;
-    margin-top: px;
 }
 
 p {
     font-size: 16px;
     font-weight: 60px;
+}
+
+.cards-heading {
+    margin-top: 40px;
 }
 
 .container {
