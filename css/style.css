@@ -128,3 +128,12 @@ footer {
 .reviews-heading {
     margin-top: -20px;
 }
+
+.hover-state {
+    background-color: #0E445E;
+}
+
+.click-state {
+    background-color: #092A3A;
+    color: black;
+}
