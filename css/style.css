@@ -146,23 +146,30 @@ header {
     background-color: #092A3A; /* Adjust this to match your brand color */
     padding: 40px 0;
     text-align: center;
+    margin-bottom: -30px;
 }
 
 header img {
-    max-width: 150px; /* Adjust as necessary for your logo size */
+    max-width: 150px; /* Adjust as necessary for logo size */
     margin: 0 auto; /* Auto margin for horizontal centering */
     display: block; /* Display block to allow margins to take effect */
    
 }
 
-header h1 {
+h1 {
     font-size: 24px;
     font-weight: 300;
 }
 
-header p {
+h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: px;
+}
+
+p {
     font-size: 16px;
-    font-weight: 50px;
+    font-weight: 60px;
 }
 
 .container {
@@ -186,6 +193,7 @@ header p {
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
+    margin-bottom: -60px;
 }
 
 
@@ -203,6 +211,11 @@ header p {
     h2 {
         font-size: 20px;
     }
+
+    /*.btn-success {
+        padding: 8px 16px; 
+        font-size: 14px; 
+    }*/
 }
 
 /* Testimonials Section Styles */
@@ -229,8 +242,18 @@ footer {
 /* Button Styles */
 .btn-success {
     background-color: white; /* Green color for buttons */
-    border-radius: 40px;
+    border-radius: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 10px 30px; /* Button padding */
+    padding: 10px 30px; /* Button padding */   
+}
+
+.button-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.reviews-heading {
+    margin-top: -20px;
 }
