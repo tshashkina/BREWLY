@@ -1,24 +1,24 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #fff; /* White text color for better readability on dark background */
+    color: #fff; 
     font-size: 16px;
     line-height: 1.6;
-    background-color: #092A3A; /* Dark blue background */
+    background-color: #092A3A; 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #092A3A; /* Adjust this to match your brand color */
+    background-color: #092A3A; 
     padding: 40px 0;
     text-align: center;
     margin-bottom: -30px;
 }
 
 header img {
-    max-width: 150px; /* Adjust as necessary for logo size */
-    margin: 0 auto; /* Auto margin for horizontal centering */
+    max-width: 150px; /* logo size */
+    margin: 0 auto; /* margin for horizontal centering */
     display: block; /* Display block to allow margins to take effect */
     margin-bottom: 70px;
    
@@ -39,6 +39,7 @@ p {
     font-weight: 60px;
 }
 
+/* <--------------Feature Cards------------------------------------------------> */
 .cards-heading {
     margin-top: 40px;
 }
@@ -49,10 +50,9 @@ p {
     padding: 0 15px;
 }
 
-/* Feature Cards Styles */
 .feature-card img {
-    width: 20%; /* Control the size of the cards here */
-    margin: 20px auto; /* Centers the card and adds spacing */
+    width: 20%; /* Control the size of the cards */
+    margin: 20px auto; /* Center the card and add spacing */
     display: block;
 }
 
@@ -68,7 +68,7 @@ p {
 }
 
 
-/* Adjustments for smaller screens */
+/* <-----------Adjustments for smaller screens---------------------------------> */
 @media (max-width: 768px) {
     .feature-card img {
         width: 100%; /* Full width on smaller screens */
@@ -89,34 +89,90 @@ p {
     }*/
 }
 
-/* Testimonials Section Styles */
-.bg-light {
-    background-color: #092A3A; /* Light background for testimonials */
+/* <------------Testimonials Section--------------------------------------------> */
+/*.bg-light {
+    background-color: #092A3A; 
     padding: 50px 0;
+}*/
+
+.reviews-heading {
+    margin-top: 15px;
 }
 
-/* Footer Styles */
+.reviews {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container img {
+    max-width: 100%; /* Ensures the image is no wider than its container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures there's no extra space under the image */
+    margin: 0 auto; 
+}
+
+
+/* <--------------Footer -------------------------------------------------------> */
 footer {
-     /* Dark footer background */
     color: #fff;
     padding: 30px 0;
     font-size: 14px;
     text-align: center;
 }
 
-/* App Screenshots Section */
+/* <---------------App Screenshots Section--------------------------------------> */
 .img-fluid {
     max-width: 100%;
     height: auto;
 }
 
-/* Button Styles */
-.btn-success {
-    background-color: white; /* Green color for buttons */
+.app-mockup {
+    margin-top: 80px;
+}
+
+.app-mockup img {
+    width: 77.2%; /* Sets the width relative to the container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* <-------------------------------BUTTON---------------------------------------> */
+/*.btn-success {
+    background-color: white;
     border-radius: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 10px 30px; /* Button padding */   
+    padding: 10px 30px; /* Button padding 
+    color: #092A3A; 
+    border: 10px;
+}*/
+
+/*.btn-success {
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    color: #092A3A;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    border-radius: 5px; 
+}*/
+
+.btn-success {
+    background-color: white; 
+    color: #092A3A; 
+    border: none; 
+    padding: 10px 20px; 
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 4px; 
+    cursor: pointer; /* Change cursor to signify button functionality */
+    transition: background-color 0.3s ease; 
+}
+
+.btn-success:hover {
+    background-color: #2788B7; 
 }
 
 .button-middle {
@@ -125,15 +181,4 @@ footer {
     align-items: center; 
 }
 
-.reviews-heading {
-    margin-top: -20px;
-}
 
-.hover-state {
-    background-color: #0E445E;
-}
-
-.click-state {
-    background-color: #092A3A;
-    color: black;
-}
