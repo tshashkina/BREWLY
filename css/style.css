@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    max-width: 150px; /* logo size */
+    max-width: 250px; /* logo size */
     margin: 0 auto; /* margin for horizontal centering */
     display: block; /* Display block to allow margins to take effect */
     margin-bottom: 70px;
@@ -39,7 +39,17 @@ p {
     font-weight: 60px;
 }
 
+/*.mockup-heading {
+    margin-left: 165px;
+}*/
+
 /* <--------------Feature Cards------------------------------------------------> */
+
+.features {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .cards-heading {
     margin-top: 40px;
 }
@@ -64,7 +74,8 @@ p {
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
-    margin-bottom: -60px;
+    /*margin-bottom: -60px;*/
+    margin-bottom: 10px;
 }
 
 
@@ -96,7 +107,7 @@ p {
 }*/
 
 .reviews-heading {
-    margin-top: 15px;
+    margin-top: 60px;
 }
 
 .reviews {
@@ -132,7 +143,7 @@ footer {
 }
 
 .app-mockup img {
-    width: 77.2%; /* Sets the width relative to the container */
+    /*width: 77.2%; /* Sets the width relative to the container */
     height: auto;
     display: block;
     margin: 0 auto;
